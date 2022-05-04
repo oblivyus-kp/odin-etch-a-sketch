@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 95%;
+    padding: 10px;
+}
+
+.column{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0;
+    width: 512px;
+    height: 32px;
+    background-color: 1px solid black;
+}
+
+.row{
+    height: 32px;
+    width: 32px;
+    border: 1px solid black;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 512px;
+    height: 512px;
+    background-color: white;
+}
